@@ -58,7 +58,7 @@ form {
 .box {
     display: flex;
     padding-left: 130px;
-    padding-right: 140px;
+    // padding-right: 100px;
     flex-wrap: wrap;
     margin-top: 20px;
     
@@ -125,9 +125,10 @@ h3 {
 }
 
 }
-@media (max-width: 769px) {
+@media (max-width: 736px) {
     form {
-        margin-left: 100px;
+        margin-left: 140px;
+        display: flex;
     }
     body {
         margin: 0%;
@@ -136,35 +137,41 @@ h3 {
         width: 60px;
         height: 60px;
         font-size: 12px;
-        margin: 0%;
+        // margin: 0%;
+        background-color: white;
+        cursor: pointer;
+        margin-top: 2rem;
     }
   
     nav {
       width: 45rem;
       margin-top: -2rem;
+    
         
         p{
           font-size: 2rem;
+         margin-right: 5.5rem;
         }
     }
     input {
         
-        width: 18rem;
-        margin-left: 5rem;
+        // width: 18rem;
+        margin-left: 3rem;
+        margin-top: 2rem;
         
     }
-    .box {
-       
-    
+        .box{
+        
     div {
         display: block;
         flex-direction: column;
+        margin-left: 6rem;
         
-        width: 290px;
-       height: 285px;
-    }}
+    //     width: 660px;
+    //    height: 450px;
+    }}}
    
-}
+
  @media (max-width: 914px) {
      body {
          display: block;
